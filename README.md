@@ -1,4 +1,4 @@
 # Hyprland Dotfiles
 
 **Install Dependencies:** 
-`yay -S hyprland kitty waybar-hyprland hyprpaper-git`
+`yay -S hyprland kitty waybar-hyprland hyprpaper-git fish lightdm`
