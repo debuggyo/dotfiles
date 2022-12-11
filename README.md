@@ -2,6 +2,6 @@
 
 **Install Dependencies**
 
-`yay -S hyprland kitty hyprpaper-git fish sddm eww-wayland`
+`yay -S hyprland kitty thunar hyprpaper-git fish sddm waybar-hyprland`
 
-`sudo systemctl enable lightdm`
+`sudo systemctl enable sddm`
