@@ -2,6 +2,13 @@
 
 **Install Dependencies**
 
-`yay -S hyprland kitty thunar hyprpaper-git fish sddm waybar-hyprland lxappearance-gtk3`
+```
+yay -S hyprland kitty thunar hyprpaper-git fish sddm waybar-hyprland lxappearance-gtk3
+sudo systemctl enable sddm
+```
+**Copy config files**
 
-`sudo systemctl enable sddm`
+```
+cd .config
+git clone https://github.com/debuggyo/dotfiles
+```
