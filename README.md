@@ -34,10 +34,18 @@ Super + W     Open Web Browser *( Firefox )*
 
 
 
-**Screenshot** *( hyprshot )*
+**Screenshot tools** *( hyprshot )*
 
 Super + S     Select Region
 
 Super + X     Full Screen *( Select Monitor )*
 
 Super + U     Select Window
+
+**Desktop Screenshots**
+![2023-01-13-103755_hyprshot](https://user-images.githubusercontent.com/96699361/212225618-18543b87-d771-431d-8e9a-74f0a4495714.png)
+
+
+*- Supply your own GTK themes, icons and fonts ( have atleast 1 Nerd Font installed for waybar to look correct*
+
+*- Includes background since colours are made for the background.*
