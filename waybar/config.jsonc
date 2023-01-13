@@ -6,7 +6,7 @@
   
   "modules-left":   ["wlr/workspaces"],
   "modules-center": ["clock"],
-  "modules-right":  ["tray", "network", "backlight", "pulseaudio","battery", "custom/power"],
+  "modules-right":  ["tray", "network", "backlight", "pulseaudio"],
 
   "wlr/workspaces": {
     "disable-scroll": true,
@@ -90,10 +90,6 @@
       "default": ["", "", "墳", ""]
     }
   },
-  "custom/power": {
-    "format": "⏻",
-    "on-click": "wlogout"
-  }
 }
 
 
