@@ -3,8 +3,7 @@
 **Install Dependencies**
 
 ```
-yay -S hyprland kitty thunar hyprpaper-git fish sddm waybar-hyprland wofi hyprshot
-chsh fish
+yay -S hyprland kitty thunar hyprpaper-git sddm waybar-hyprland wofi hyprshot
 sudo systemctl enable --now sddm
 ```
 
