@@ -41,7 +41,7 @@ Super + X     Full Screen *( Select Monitor )*
 
 Super + U     Select Window
 
-**Desktop Screenshots**
+**Desktop Screenshots** *( outdated )*
 ![2023-01-13-103755_hyprshot](https://user-images.githubusercontent.com/96699361/212225618-18543b87-d771-431d-8e9a-74f0a4495714.png)
 
 
