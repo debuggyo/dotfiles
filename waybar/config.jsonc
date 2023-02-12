@@ -1,11 +1,11 @@
 {
 
-  "layer": "top",
-  "position": "top", 
+  "layer": "bottom",
+  "position": "bottom",
   "height": 33,
-  
-  "modules-left":   ["wlr/workspaces"],
-  "modules-center": ["clock"],
+
+  "modules-left":   ["clock",  "wlr/workspaces"],
+  "modules-center": ["hyprland/window"],
   "modules-right":  ["tray", "network", "backlight", "pulseaudio"],
 
   "wlr/workspaces": {
@@ -65,7 +65,7 @@
     "format-icons": ["", "", "", "", "", "", "", "", "", "", ""]
   },
   "clock": {
-   "format": "{: %I:%M %p   %d/%m}",
+   "format": "{: %I:%M %p   %a %d %b}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
   },
   "network": {
