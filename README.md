@@ -3,37 +3,37 @@
 **Install Dependencies**
 
 ```
-yay -S hyprland kitty thunar hyprpaper-git sddm waybar-hyprland wofi hyprshot
+yay -S hyprland kitty nemo hyprpaper-git sddm waybar-hyprland wofi hyprshot hyprpicker
 sudo systemctl enable --now sddm
 ```
 
-**Copy config files**
+# Copy config files
 
-Super + Q to open a terminal
+<kbd>Super</kbd> + <kbd>Q</kbd> to open a terminal
 ```
 git clone https://github.com/debuggyo/dotfiles
-thunar
+nemo
 ```
 Move the folders contained into .config
 
-**Keybinds**
+# Keybinds
 
-Super + T     Open Terminal *( kitty )* |
+<kbd>Super</kbd> + <kbd>T</kbd>     Open Terminal *( kitty )* |
 
-Super + E     Open File Manager *( Thunar )*
+<kbd>Super</kbd> + <kbd>E</kbd>     Open File Manager *( Nemo )*
 
-Super + Esc   Exit Hyprland and go to SDDM
+<kbd>Super</kbd> + <kbd>Esc</kbd>   Exit Hyprland and go to SDDM
 
-Super + Q     Close active window
+<kbd>Super</kbd> + <kbd>Q</kbd>     Close active window
 
-Super + R     Run app chooser menu *( wofi )*
+<kbd>Super</kbd> + <kbd>R</kbd>     Run app chooser menu *( wofi )*
 
-Super + W     Open Web Browser *( Firefox )*
+<kbd>Super</kbd> + <kbd>W</kbd>     Open Web Browser *( Firefox )*
+
+<kbd>Super</kbd> + <kbd>K</kbd>     Open a Colour Picker, Copies Hex Code to clipboard
 
 
-
-
-**Screenshot tools** *( hyprshot )*
+# Screenshot tools *( hyprshot )*
 
 Super + S     Select Region
 
@@ -41,8 +41,8 @@ Super + X     Full Screen *( Select Monitor )*
 
 Super + U     Select Window
 
-**Desktop Screenshots** *( outdated )*
-![2023-01-13-103755_hyprshot](https://user-images.githubusercontent.com/96699361/212225618-18543b87-d771-431d-8e9a-74f0a4495714.png)
+# Desktop Screenshots
+![image](https://user-images.githubusercontent.com/96699361/218343617-91b59916-a4f9-4635-b9ab-360a80ac4234.png)
 
 
 *- Supply your own GTK themes, icons and fonts ( have atleast 1 Nerd Font installed for waybar to look correct )*
